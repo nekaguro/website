@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="website.master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <!-- HEADER -->
+        <header>
+            <div id="nav">
+                <div class="logo">
+                    <asp:ImageButton ID="logo_button" runat="server" src="/CSS/imgs/Untitled.png" style="height:auto;width:150px"/>
+                </div>
+                <div class="nav-bar">
+                    <ul>
+                        <li><a>About</a></li>
+                        <li><a>Resume</a></li>
+                        <li><a>Projects</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- CONTENT PLACEHOLDER -->
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer>
+            <div id="footer">
+                <div class="f_info">
+                    <table>
+                        <tr>
+                            <td>
+                                *
+                            </td>
+                            <td>
+                                Catarina Tavares
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+                                *
+                            </td>
+                            <td>
+                                catarinagabrielatavares@gmail.com
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+                                *
+                            </td>
+                            <td>
+                                +351 916 242 591
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="icon_social">
+                    <ul>
+                        <li><a>F</a></li>
+                        <li><a>I</a></li>
+                        <li><a>L</a></li>
+                    </ul>
+                </div>
+                <div class="f_logo">
+                    <img src="/CSS/imgs/Untitled.png" style="height:auto;width:150px" />
+                </div>
+            </div>
+        </footer>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿body {
+}
+
+.grid {
+    display: flex;
+}
+
+.table {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+}
+
+.profile img {
+    max-width: 100%;
+    height: auto;
+}
